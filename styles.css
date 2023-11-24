@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(116, 194, 114);
+}
+
+
+
+.header{
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display:inline-block;
+    padding: 0 20px;
+    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header .nav-links a:hover{
+    color:chocolate;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color:rgb(6, 113, 6);
+    padding: 9px 25px;
+    background: rgb(116, 194, 114);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: darkslategray;
+    color:aliceblue;
+    transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+img{
+    width: 500px;
+    border-radius: 25px; 
+}
+
+
+.info_personal{  
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 600px;
+    height: 600px;
+    list-style: none;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    list-style: none;
+}
+
+.info_personal h2{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
