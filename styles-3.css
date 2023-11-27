@@ -1,0 +1,32 @@
+
+.contenedor-3 h2{
+    text-align: center;
+}
+
+
+
+.contenedor-3 {
+    width: 600px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;    
+
+}
+
+@media screen and (max-width: 450px){
+    .contenedor-3{
+    width: 300px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px
+
+    }
+
+    h2{
+        font-size: large;
+    }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FerSilveroCode</title>
+    <link rel="shortcut icon" href="curriculum.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles-3.css">
+    
+    
+</head>
+<body>
+<header class="header">
+    <div>
+        <h1><strong>FerSilveroCode</strong></h1>
+    </div>
+    <div class="logo">
+        <img src="./assets/img/logo.jpg" alt="Logo">
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="./index.html"><i class="bi bi-house-fill"></i></a></li>
+            <li><a href="./estudios.html">Formación</a></li>
+            <li><a href="">Github <i class="bi bi-github"></i></a></li>
+        </ul>
+    </nav>
+    <a href="./contacto.html" class="btn"><button>Contacto</button></a>   
+    
+    <a onclick="openNav()" class="menu"  href="#"><button>Menu</button></a>
+
+    <div class="overlay" id="mobile-menu">
+        <a onclick="closeNav()" href="#" class="close">&times;</a>
+        <div class="overlay-content">
+            <a href="./index.html"><i class="bi bi-house-fill"></i></a>
+            <a href="./estudios.html">Formación</a>
+            <a href="">Github <i class="bi bi-github"></i></a>
+            <a href="./contacto.html" class="btn"><button>Contacto</button></a>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="contenedor-3">
+  <div class="box">
+    <h2>Tecnologías que Aprendí este año 2023:</h2>
+  </div>
+  <div class="box">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./assets/img/tecnologias/git.jpg" class="d-block w-100" alt="Git">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./assets/img/tecnologias/github.jpg" class="d-block w-100" alt="GitHub">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/html.jpg" class="d-block w-100" alt="HTML">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/css.jpg" class="d-block w-100" alt="CSS">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/javascritp.jpg" class="d-block w-100" alt="Javascript">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/nodejs.jpg" class="d-block w-100" alt="nodejs">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/postgres.jpg" class="d-block w-100" alt="Postgres">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/docker.jpg" class="d-block w-100" alt="Docker">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/tecnologias/bootstrap.jpg" class="d-block w-100" alt="Bootstrap">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div>
+    <p>Los logos utilizados para el diseño del Carousel fueron tomados del sitio: </p>
+    <a href="https://ar.pinterest.com/" target="_blank"><i class="bi bi-pinterest">https://ar.pinterest.com/</i></a>
+    
+  </div>
+  </div>
+
+
+<footer class="pie-pagina">
+<div class="grupo-1">
+    <div class="box">
+        <figure>
+            <a href="#"><img src="./assets/img/logo.jpg" alt="Logo de FerSilveroCode"></a>
+        </figure>
+    </div>
+    <div class="box">
+        <h2>Acerca de mi</h2>
+        <p>Soy un técnico informático en constante formación y búsqueda de crecer profesionalmente. Actualmente dedicado a la programación.</p>
+        <p>Me encuentro terminando el curso de Desarrollador Front-end (UTN - Silicon Misiones)</p>
+        <p>La Imagen para el diseño del logo de mi Portfolio fue tomado del sitio: https://www.freepik.es/ </p>
+    </div>
+    <div class="box">
+        <h2>Mis Redes</h2>
+        <div class="redsocial">
+            <a href="https://www.facebook.com/fernandodaniel.silvero/" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/FerSilveroCode" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/fernando-daniel-silvero-579235296/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.instagram.com/fernandodanielsilvero/" class="fa fa-instagram" target="_blank"></a>    
+            <a href="https://mailto:fersilverocode@gmail.com"><i class="bi bi-envelope-at" target="_blank"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="grupo-2">
+
+    <small>&copy; 2023 <b>FerSilveroCode</b> - Todos los Derechos Reservados</small>    
+    
+</div>
+
+
+</footer>
+        
+<script type="text/javascript" src="nav.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

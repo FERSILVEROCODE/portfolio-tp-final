@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FerSilveroCode</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--Enlace para los íconos de las redes sociales-->
     <link rel="shortcut icon" href="curriculum.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"><!--Enlace para el ícono de correo electrónico-->
-    
-    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./contacto.css">
+        
 </head>
 <body>
 <header class="header">
@@ -22,50 +22,54 @@
     </div>
     <nav>
         <ul class="nav-links">
+            <li><a href="./index.html"><i class="bi bi-house-fill"></i></a></li>
             <li><a href="./estudios.html">Formación</a></li>
             <li><a href="./tecnologias.html"><i class="bi bi-code-square"></i> Tecnologías</a></li>
             <li><a href="">Github <i class="bi bi-github"></i></a></li>
         </ul>
     </nav>
-    <a href="./contacto.html" class="btn"><button>Contacto</button></a>   
+    <a href="#" class="btn"><button>Contacto</button></a>   
     
     <a onclick="openNav()" class="menu"  href="#"><button>Menu</button></a>
 
     <div class="overlay" id="mobile-menu">
         <a onclick="closeNav()" href="#" class="close">&times;</a>
         <div class="overlay-content">
+            <a href="./index.html"><i class="bi bi-house-fill"></i></a>
             <a href="./estudios.html">Formación</a>
             <a href="./tecnologias.html"><i class="bi bi-code-square"></i> Tecnologías</a>
             <a href="">Github <i class="bi bi-github"></i></a>
-            <a href="./contacto.html" class="btn"><button>Contacto</button></a>
         </div>
     </div>
 </header>
 <br>
 
+<div class="contenedor-4">
+    <form action="https://formsubmit.co/fersilverocode@gmail.com" method="POST">
+        <h2>Contacto</h2>
 
-<div class="contenedor">
-    <div class="foto-de-perfil">
-        <img  src="./assets/img/foto-perfil.jpg" alt="Imagen de Perfil">
-    </div>   
-    <div class="info_personal">
-        <h2>Datos Personales</h2>
-        <ul>
-            <li>Apellido y Nombre: Silvero Fernando Daniel</li>
-            <li>Edad: 39 años</li>
-            <li>Nacionalidad: Argentino</li>
-            <li>Ciudad:Apóstoles Misiones </li>
-            <li>Dirección Postal: 3350</li>
-            <li>Teléfono Celular: 03758-15481029</li>
-        </ul>
-        <h2>Correos Electrónicos</h2>
-        <ul>
-            <li>fernando daniel1984@hotmail.com</li>
-            <li>fersilverocode@gmail.com</li>
-        </ul>   
-    </div>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre">
+
+        <label for="phone">Teléfono</label>
+        <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+        <div class="form-txt">
+            <a href="./politica-priv.html">Política de Privacidad</a>
+            <a href="./terminos-cond.html">Terminos y condiciones</a>
+        </div>
+
+        <input class="btn-2" type="submit" value="Enviar">
+
+    </form>
+    
 </div>
-
 
 <footer class="pie-pagina">
 <div class="grupo-1">
@@ -77,10 +81,8 @@
             <div class="box">
                 <h2>Acerca de mi</h2>
                 <p>Soy un técnico informático en constante formación y búsqueda de crecimiento profesional. Actualmente estudiando programación.</p>
-                <p>Me encuentro terminando el curso de Desarrollador Front-end - (UTN - Silicon Misiones)</p>
+                <p>Me encuentro terminando el curso de Desarrollador Front-end (UTN - Silicon Misiones)</p>
                 <p>La Imagen para el diseño del logo de mi Portfolio fue tomado del sitio: https://www.freepik.es/ </p>
-               
-                
             </div>
             <div class="box">
                 <h2>Mis Redes</h2>
@@ -103,7 +105,6 @@
 
 </footer>
         
-<script type="text/javascript" src="nav.js"></script>  
-  
+<script type="text/javascript" src="nav.js"></script>    
 </body>
 </html>
