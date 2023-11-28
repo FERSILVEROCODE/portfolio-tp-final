@@ -1,0 +1,2 @@
+FerSilveroCode es un pequeño emprendimiento dedicado al Desarrollo de páginas web. 
+Si bien es parte de un trabajo práctico de un Curso de desarrollo Fron-End, el Sitio seguirá desarrollandose y se agregarán mas secciones de manera que sirva no sólamente como un Sitio Publicitario sinó también como medio para que Clientes que necesiten un sitio web puedan contactarme. 
